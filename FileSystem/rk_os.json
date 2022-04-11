@@ -1,0 +1,48 @@
+{
+  "Name": "/",
+  "AccessList": [
+    {
+      "GroupName": "admins",
+      "Rights": "RWCDNA"
+    },
+    {
+      "GroupName": "users",
+      "Rights": "RW"
+    }
+  ],
+  "Directories": [
+    {
+      "Name": "system",
+      "AccessList": [
+        {
+          "GroupName": "admins",
+          "Rights": "RWCDNA"
+        }
+      ],
+      "Directories": [],
+      "Files": [
+        {
+          "Name": "logbook.txt",
+          "Content": "admin:jGl25bVBBBW96Qi9Te4V37Fnqchz/Eu4qB9vKrRIqRg=:D/4avRoIIVNTwjPW4AlhPpXuxCU4Mqdhryj/N6xaFQw=:admins/users\nuser:BPiZbadjt6lpsQKO4wB1aerzpjVIbdqyEdUSyFud\u002BPs=:D/4avRoIIVNTwjPW4AlhPpXuxCU4Mqdhryj/N6xaFQw=:users",
+          "AccessList": [
+            {
+              "GroupName": "admins",
+              "Rights": "RWCDNA"
+            }
+          ]
+        },
+        {
+          "Name": "logs.txt",
+          "Content": "",
+          "AccessList": [
+            {
+              "GroupName": "admins",
+              "Rights": "RWCDNA"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Files": []
+}
